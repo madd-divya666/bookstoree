@@ -30,7 +30,9 @@ try{
 }catch(error){
 console.log("error:",error)
 }
-
+app.get("/",(req,res)=>{
+  return res.send("hii");
+})
 //defining routes
 app.use("/book",bookRoute);
 app.use("/user",userRoute)
