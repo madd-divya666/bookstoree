@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { back } from "../config";
 import Login from "../../src/components/Login";
 import { useForm } from "react-hook-form";
 import axios from "axios";
@@ -21,7 +22,7 @@ function SignUp() {
       password: data.password,
     };
     await axios
-      .post("http://localhost:4001/user/signup", userInfo)
+      .post(`${back}/user/signup`, userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {

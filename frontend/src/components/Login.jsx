@@ -1,4 +1,5 @@
 import React from "react";
+import { back } from "../config";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
@@ -16,7 +17,7 @@ function Login() {
       password: data.password,
     };
     await axios
-      .post("http://localhost:4001/user/login", userInfo)
+      .post(`${back}/user/login`, userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
