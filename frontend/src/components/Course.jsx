@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { back } from "../config";
+
+import { back } from "../config.js";
 import Cards from "./Cards";
 import { Link } from "react-router-dom";
 import axios from "axios";

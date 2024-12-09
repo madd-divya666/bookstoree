@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { back } from "../config";
+import { back } from "../config.js";
 import Login from "../../src/components/Login";
 import { useForm } from "react-hook-form";
 import axios from "axios";

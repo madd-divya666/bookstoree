@@ -1,5 +1,5 @@
 import React from "react";
-import { back } from "../config";
+import { back } from "../config.js";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
