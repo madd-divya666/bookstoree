@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from 'daisyui';  // Import daisyui using ES module syntax
+
 export default {
   content: [
     "./index.html",
@@ -6,13 +8,9 @@ export default {
   ],
   darkMode: 'class',
   theme: {
-    extend: {
-      
-    },
-  }, 
+    extend: {},
+  },
   plugins: [
-    require('daisyui'),
+    daisyui,  // Use daisyui as a plugin directly
   ],
-
-
 }
