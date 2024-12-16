@@ -24,14 +24,13 @@ function Course() {
       <div className="max-w-screen-2xl container mx-auto md:px-20 py-4">
         <div className="mt-28 items-center justify-center text-center">
           <h1 className="text-2xl font-semibold md:text-4xl">
-            We're delighted to have you{" "}
+            We're thrilled to have you{" "}
             <span className="text-pink-500">Here!:)</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-            molestias dolore maiores ullam numquam illo, laboriosam, veniam,
-            dignissimos repellendus rem dicta eum perferendis placeat ipsum
-            labore! Aut quod culpa est!
+            At Your Next Read, we believe books have the power to change lives.
+            Whether you're an avid reader or just starting your journey, we have
+            a vast collection of books that cater to every taste and interest.
           </p>
           <Link to="/">
             <button

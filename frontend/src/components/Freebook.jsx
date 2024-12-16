@@ -60,11 +60,15 @@ function Freebook() {
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 ">
         <div>
-          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+          <h1 className="font-semibold text-xl pb-2">
+            Free Courses Just for You!
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            accusamus quae vero nostrum laborum dignissimos dolores quia, modi
-            ipsam eligendi illum, consequuntur
+            At Your Next Read, we offer free courses to help you dive deeper
+            into the world of literature and storytelling. Whether you want to
+            improve your writing skills, learn about literary genres, or explore
+            book recommendations, our courses are designed to inspire and
+            educate.
           </p>
         </div>
 

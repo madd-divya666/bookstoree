@@ -8,14 +8,14 @@ function Banner() {
         <div className="w-full md:w-1/2 mt-14 md:mt-32">
           <div className="space-y-12">
             <h1 className="text-4xl font-bold">
-              Hello, welcomes here to learn something{" "}
+              Hello, welcome to learn something{" "}
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-xl">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-              debitis sed atque nihil cum libero corporis repellendus ipsum,
-              aliquam perferendis! Quisquam nihil ratione cum. Dicta, atque
-              voluptate? Omnis, aspernatur natus!
+              At Your Next Read, we believe in the power of books to inspire,
+              educate, and transform. Whether you're an avid reader or just
+              starting your literary journey, we offer a wide range of books to
+              suit every interest and passion.
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
@@ -27,10 +27,14 @@ function Banner() {
                 <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
                 <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
               </svg>
-              <input type="text" className="grow" placeholder="Email" />
+              <input
+                type="text"
+                className="grow"
+                placeholder="Find Your Next Book"
+              />
             </label>
           </div>
-          <button className="btn btn-secondary mt-2">Secondary</button>
+          <button className="btn btn-secondary mt-2">Explore Now</button>
         </div>
         <div className="w-full md:w-1/2 order-1 ">
           <img
